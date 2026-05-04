@@ -14,13 +14,6 @@ def get_weather():
     p_label1.config(text=str(data["main"]["humidity"])+"%")
 
 
-
-
-
-
-
-
-
 win = Tk()
 win.title("Weather App")
 win.config(bg="lightblue")
@@ -66,16 +59,5 @@ p_label= Label(win, text="Humidity:", font=("Arial", 14) , bg="lightblue")
 p_label.place(x=50, y=500, height=30, width=150)
 p_label1= Label(win, text="", font=("Arial", 14) , bg="lightblue")
 p_label1.place(x=200, y=500, height=30, width=150)
-
-
-
-
-
-
-
-
-
-
-
 
 win.mainloop()
